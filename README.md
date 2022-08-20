@@ -1,7 +1,43 @@
 # JsonProject
 Json repository
+TITLE OF PROJECT
+                           Bootstrap Example
+                              Description
+Introduction to JsonPowerDB
+JsonPowerDB is a Real-time, High Performance, Lightweight and Simple to Use, Rest API based Multi-mode DBMS. JsonPowerDB has ready to use API for Json document DB, RDBMS, Key-value DB, GeoSpatial DB and Time Series DB functionality. JPDB supports and advocates for true serverless and pluggable API development.
+In this course the candidate will learn about basics of JsonPowerDB (JPDB) and how to use JPDB for simple database operations. Candidate will learn CRUD and some more important API commands that will be usefull to create a dynamic website or mobile app.
+
+Benefits of using JsonPowerDB
+
+JsonPowerDB (JPDB) is Next Generation, Creative and Disruptive Multi-mode DBMS_ with many USPs.
+•	Proprietary algorithm for High Performance CRUD operations. Multiple times faster than popular DBMS.
+•	Serverless support for faster development - A UI developer can develop complete dynamic application.
+•	DBMS with built in web / application server and embedded caching makes the performance lightning fast.
+•	Server side Native NoSQL - best query performance.
+•	In-built support to query on multiple JPDB databases.
+•	Multi-mode DBMS - Document DB, Key-Value DB, RDBMS support.
+•	Schema free - easy to develop and maintain.
+•	Web-services API - Can be used with any programming language that has support for HTTP.
+•	Enriched by a pluggable API Framework - A developer can develop a pluggable API and plugin into any of our cloud JPDB instance.
+•	Standardisation of API development framework makes the development process easy, more readable, and less error prone.
+•	Multiple security layer/
+•	Nimble, Simple to use, I Memory, Real-time DBMS.
+Release History (release of your JsonPowerDB related code on Github)
+
+1. A short Employee Database web form implementing JsonPowerDB.
+2. validation form using jsonPowerDB
+3. This project is all about basics of JsonPowerDB (JPDB) and how to use JPDB for CRUD operations.
+4. JSON Power databse CRUD operation in contribution with Login2Xplore,Bhopal,MP.
+5. The Repository contains a simple Application form,Which has the connection to the JsonPowerDB.
+6. A Student DB management RESTful web application implementing JSONpowerDB ( NoSQL ).
 
 
+Table Content
+1.Illustrations
+2.Scope of functionalities
+3.Examples of use
+4.Project status
+                                 5.Sources
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -43,9 +79,9 @@ placeholder="Enter Employee Email" name="empEmail">
 onclick="saveEmployee();">
 </form>
 </div>
-<script>
+    <script>
         $("#empId").focus();
-   function validateAndGetFormData() {
+   function validateAndGetFormData() {                                                //validate form data
          var empIdVar = $("#empId").val();
          if (empIdVar === "") {
          alert("Employee ID Required Value");
@@ -98,4 +134,10 @@ onclick="saveEmployee();">
     
     </body>
     </html>
+
+6.Other information
+
+
+
+
 
